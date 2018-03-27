@@ -23,7 +23,7 @@
 }
 
 
-/* Carousel Styles Starts */
+/* Carousel Styles Start */
 .item {
   height: 450px;
   background-size: cover;
@@ -37,6 +37,10 @@
   background-image: url('../img/restaurant-2.jpg');
 }
 
+.farm-bg {
+  background-image: url('../img/farm-2.jpg')
+}
+
 .hero-logo {
   width: 240px;
 }
@@ -47,3 +51,19 @@
   align-items: center;
   height: 100%;
 }
+
+.slide-text {
+  margin-bottom: 50px;
+}
+
+.btn-warning {
+  background-color: #F8512F;
+  border-color: transparent;
+}
+
+.btn-warning.active, .btn-warning.focus, .btn-warning:active, .btn-warning:focus, .btn-warning:hover, .open>.dropdown-toggle.btn-warning {
+  background-color: #d34326;
+  border-color: transparent;
+}
+
+/* Carousel Styles End */
