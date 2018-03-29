@@ -14,6 +14,10 @@
   color: #fff;
 }
 
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
 /* Navbar Styles */
 .navbar-default{
   background-color: transparent;
@@ -102,5 +106,31 @@
 
 
 #our-story p {
-  font-weight: 200;
+  font-weight: 300;
+  font-family: "Raleway", sans-serif;
 }
+
+/* Our Story Ends */
+
+/* Review Section Starts */
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-postion: center;
+  padding: 200px 0px;
+}
+
+.review-box{
+  background-color: rgba(0, 0, 0, .6);
+  border-radius: 6px;
+}
+
+.review-box h1 {
+  text-shadow: 1px 1px 2px #000;
+  font-size: 5.5em;
+}
+
+.review-box p {
+  font-size: 32px;
+}
+/* Review Section Ends */
