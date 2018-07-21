@@ -16,7 +16,10 @@
 
 body {
   font-family: 'Raleway', sans-serif;
+  position: relative;
 }
+
+
 
 /* Navbar Styles */
 .navbar-default{
@@ -116,7 +119,7 @@ body {
 #review {
   background-image: url('../img/food_review.jpg');
   background-size: cover;
-  background-postion: center;
+  background-position: center;
   padding: 200px 0px;
 }
 
@@ -134,3 +137,45 @@ body {
   font-size: 32px;
 }
 /* Review Section Ends */
+
+/* Menu Section Starts */
+#menu {
+  background-image: url('../img/black_linen.png');
+  background-position: center;
+  padding: 170px 0px;
+}
+
+#menu col-sm-3 {
+  background-color: #fff;
+  padding: 20px 15px;
+}
+
+#menu h1 {
+  font-size: 6em;
+}
+
+.nav-tabs.nav-justified>.active>a, .nav-tabs.nav-justified>.active>a:focus, .nav-tabs.nav-justified>.active>a:hover {
+  background-color: #fff;
+  color: #f8512f;
+  border: none;
+  padding: 11px;
+}
+
+.nav-tabs.nav-justified>li>a {
+  color: #f8512f;
+  font-weight: bold;
+}
+
+
+
+/* Menu Section Ends */
+
+/* Contact Section Starts*/
+#contact {
+  background: linear-gradient(#f8512f, #f8114d);
+}
+
+.red-text {
+  color: red;
+}
+/* Contact Section Ends */
